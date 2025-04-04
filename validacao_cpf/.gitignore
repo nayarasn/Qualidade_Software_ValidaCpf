@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Relatórios de testes
+*.html
+
+# Diretórios de testes ou cache de ferramentas
+.cache/
+pytest_cache/
+
+# Ambiente virtual (se houver)
+env/
+venv/
+ENV/
+.venv/
+
+# Arquivos do VSCode (opcional)
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
