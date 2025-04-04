@@ -3,6 +3,9 @@ import tkinter as tk
 from tkinter import messagebox
 
 def validar_cpf(cpf: str) -> bool:
+    if not isinstance(cpf, str):
+        return False
+
     cpf = re.sub(r'\D', '', cpf)
 
     if len(cpf) != 11 or cpf == cpf[0] * 11:
