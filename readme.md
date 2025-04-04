@@ -6,7 +6,7 @@ Este projeto é um **mini sistema de validação de CPF brasileiro** com **inter
 
 ## 🧠 O que foi desenvolvido?
 
-- Uma **função de validação de CPF** em Python que segue as regras do algoritmo oficial.
+- Uma **função de validação de CPF** em Python que segue as regras da receita Federal Brasileira.
 - Uma **interface gráfica (GUI)** feita com Tkinter:
   - Permite digitar o CPF.
   - Mostra uma **saudação personalizada** no topo: _"Bom dia, Boa tarde, Boa noite meu povo"_.
@@ -25,7 +25,7 @@ Este projeto é um **mini sistema de validação de CPF brasileiro** com **inter
 2. Execute o script principal:
 
 ```bash
-python app/main.py
+python app/validacao.py
 ```
 
 > Isso abrirá a janela da interface gráfica.
@@ -79,13 +79,12 @@ Esses testes mostram **casos reais de sucesso e falha**, reforçando a importân
 
 ```
 validacao_cpf/
-├── app/
-│   ├── main.py              # Interface gráfica com Tkinter
-│   └── validacao.py         # Função para validar CPF
+├── app/             
+│   └── validacao.py         
 ├── test/
-│   └── test_validacao.py    # Testes unitários com unittest
-├── relatorio_cpf.html       # (gerado) Relatório dos testes em HTML
-└── .gitignore               # Arquivos ignorados pelo Git
+│   └── test_validacao.py    
+├── readme.md      
+└── .gitignore               
 ```
 
 ---
