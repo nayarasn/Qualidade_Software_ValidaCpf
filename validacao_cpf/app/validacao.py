@@ -39,7 +39,7 @@ janela.resizable(False, False)
 # Saudação no topo
 saudacao_var = tk.StringVar()
 saudacao_label = tk.Label(janela, textvariable=saudacao_var, font=("Arial", 11, "bold"), fg="blue")
-saudacao_label.pack(pady=(15, 5))  # espaço maior no topo
+saudacao_label.pack(pady=(15, 5)) 
 
 # Rótulo
 rotulo = tk.Label(janela, text="Digite o CPF:", font=("Arial", 12))
